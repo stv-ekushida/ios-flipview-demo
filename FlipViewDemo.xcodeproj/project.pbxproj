@@ -13,6 +13,8 @@
 		C59D0465200018890025CBF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C59D0464200018890025CBF5 /* Assets.xcassets */; };
 		C59D0468200018890025CBF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C59D0466200018890025CBF5 /* LaunchScreen.storyboard */; };
 		C59D0473200018890025CBF5 /* FlipViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59D0472200018890025CBF5 /* FlipViewDemoTests.swift */; };
+		C59D04842000212E0025CBF5 /* FlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59D04832000212E0025CBF5 /* FlipView.swift */; };
+		C59D0488200025270025CBF5 /* FlipView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C59D0487200025270025CBF5 /* FlipView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		C59D046E200018890025CBF5 /* FlipViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C59D0472200018890025CBF5 /* FlipViewDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipViewDemoTests.swift; sourceTree = "<group>"; };
 		C59D0474200018890025CBF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C59D04832000212E0025CBF5 /* FlipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipView.swift; sourceTree = "<group>"; };
+		C59D0487200025270025CBF5 /* FlipView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +81,10 @@
 		C59D045C200018880025CBF5 /* FlipViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C59D048A20002A040025CBF5 /* Controllers */,
+				C59D0489200029F80025CBF5 /* Views */,
 				C59D045D200018880025CBF5 /* AppDelegate.swift */,
-				C59D045F200018880025CBF5 /* ViewController.swift */,
-				C59D0461200018890025CBF5 /* Main.storyboard */,
 				C59D0464200018890025CBF5 /* Assets.xcassets */,
-				C59D0466200018890025CBF5 /* LaunchScreen.storyboard */,
 				C59D0469200018890025CBF5 /* Info.plist */,
 			);
 			path = FlipViewDemo;
@@ -94,6 +97,25 @@
 				C59D0474200018890025CBF5 /* Info.plist */,
 			);
 			path = FlipViewDemoTests;
+			sourceTree = "<group>";
+		};
+		C59D0489200029F80025CBF5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C59D04832000212E0025CBF5 /* FlipView.swift */,
+				C59D0487200025270025CBF5 /* FlipView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C59D048A20002A040025CBF5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C59D0466200018890025CBF5 /* LaunchScreen.storyboard */,
+				C59D0461200018890025CBF5 /* Main.storyboard */,
+				C59D045F200018880025CBF5 /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +204,7 @@
 				C59D0468200018890025CBF5 /* LaunchScreen.storyboard in Resources */,
 				C59D0465200018890025CBF5 /* Assets.xcassets in Resources */,
 				C59D0463200018890025CBF5 /* Main.storyboard in Resources */,
+				C59D0488200025270025CBF5 /* FlipView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C59D0460200018880025CBF5 /* ViewController.swift in Sources */,
+				C59D04842000212E0025CBF5 /* FlipView.swift in Sources */,
 				C59D045E200018880025CBF5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
